@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F091B79E1E727ABB0062499C /* ReactNativeSMSSdk.m in Sources */ = {isa = PBXBuildFile; fileRef = F091B79D1E727ABB0062499C /* ReactNativeSMSSdk.m */; };
+		F091B79F1E727ABB0062499C /* ReactNativeSMSSdk.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F091B79C1E727ABB0062499C /* ReactNativeSMSSdk.h */; };
+		F091B7EB1E7293A10062499C /* MOBFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F091B7E81E7293A10062499C /* MOBFoundation.framework */; };
+		F091B7EC1E7293A10062499C /* MOBFoundationEx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F091B7E91E7293A10062499C /* MOBFoundationEx.framework */; };
+		F091B7ED1E7293A10062499C /* SMS_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F091B7EA1E7293A10062499C /* SMS_SDK.framework */; };
+		F091B8261E7294440062499C /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F091B8251E7294440062499C /* MessageUI.framework */; };
+		F091B8281E72944E0062499C /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F091B8271E72944E0062499C /* JavaScriptCore.framework */; };
+		F091B82C1E7294630062499C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F091B82B1E7294630062499C /* SystemConfiguration.framework */; };
+		F091B82E1E72946C0062499C /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F091B82D1E72946C0062499C /* CoreTelephony.framework */; };
+		F091B8301E7294750062499C /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F091B82F1E7294750062499C /* AdSupport.framework */; };
+		F091B8321E7294840062499C /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F091B8311E7294840062499C /* AddressBook.framework */; };
+		F091B8971E729F190062499C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F091B8961E729F190062499C /* Security.framework */; };
+		F091B8981E729F2B0062499C /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F091B8331E7294890062499C /* AddressBookUI.framework */; };
+		F091B8A21E72A70E0062499C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F091B8A11E72A70E0062499C /* UIKit.framework */; };
+		F091B8E91E72B11A0062499C /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F091B89F1E72A6DA0062499C /* libstdc++.6.0.9.dylib */; };
+		F091B8EA1E72B1270062499C /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F091B8E41E72ACE80062499C /* libz.1.dylib */; };
+		F091B8EB1E72B14D0062499C /* libicucore.A.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F091B8E61E72AD140062499C /* libicucore.A.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F091B7971E727ABB0062499C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				F091B79F1E727ABB0062499C /* ReactNativeSMSSdk.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F091B7991E727ABB0062499C /* libReactNativeSMSSdk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReactNativeSMSSdk.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F091B79C1E727ABB0062499C /* ReactNativeSMSSdk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReactNativeSMSSdk.h; sourceTree = "<group>"; };
+		F091B79D1E727ABB0062499C /* ReactNativeSMSSdk.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactNativeSMSSdk.m; sourceTree = "<group>"; };
+		F091B7E81E7293A10062499C /* MOBFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOBFoundation.framework; sourceTree = "<group>"; };
+		F091B7E91E7293A10062499C /* MOBFoundationEx.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOBFoundationEx.framework; sourceTree = "<group>"; };
+		F091B7EA1E7293A10062499C /* SMS_SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SMS_SDK.framework; sourceTree = "<group>"; };
+		F091B8211E72942C0062499C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F091B8231E72943C0062499C /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		F091B8251E7294440062499C /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		F091B8271E72944E0062499C /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F091B8291E72945A0062499C /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		F091B82B1E7294630062499C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F091B82D1E72946C0062499C /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		F091B82F1E7294750062499C /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		F091B8311E7294840062499C /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		F091B8331E7294890062499C /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		F091B8961E729F190062499C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F091B89D1E72A5600062499C /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		F091B89F1E72A6DA0062499C /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "../../../../../../../../../../usr/lib/libstdc++.6.0.9.dylib"; sourceTree = "<group>"; };
+		F091B8A11E72A70E0062499C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F091B8E41E72ACE80062499C /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = ../../../../../../../../../../usr/lib/libz.1.dylib; sourceTree = "<group>"; };
+		F091B8E61E72AD140062499C /* libicucore.A.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.A.dylib; path = ../../../../../../../../../../usr/lib/libicucore.A.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F091B7961E727ABB0062499C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F091B8EB1E72B14D0062499C /* libicucore.A.dylib in Frameworks */,
+				F091B8EA1E72B1270062499C /* libz.1.dylib in Frameworks */,
+				F091B8E91E72B11A0062499C /* libstdc++.6.0.9.dylib in Frameworks */,
+				F091B8A21E72A70E0062499C /* UIKit.framework in Frameworks */,
+				F091B8981E729F2B0062499C /* AddressBookUI.framework in Frameworks */,
+				F091B8301E7294750062499C /* AdSupport.framework in Frameworks */,
+				F091B8971E729F190062499C /* Security.framework in Frameworks */,
+				F091B82E1E72946C0062499C /* CoreTelephony.framework in Frameworks */,
+				F091B8321E7294840062499C /* AddressBook.framework in Frameworks */,
+				F091B82C1E7294630062499C /* SystemConfiguration.framework in Frameworks */,
+				F091B8281E72944E0062499C /* JavaScriptCore.framework in Frameworks */,
+				F091B8261E7294440062499C /* MessageUI.framework in Frameworks */,
+				F091B7ED1E7293A10062499C /* SMS_SDK.framework in Frameworks */,
+				F091B7EB1E7293A10062499C /* MOBFoundation.framework in Frameworks */,
+				F091B7EC1E7293A10062499C /* MOBFoundationEx.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F091B7901E727ABB0062499C = {
+			isa = PBXGroup;
+			children = (
+				F091B7E71E7293A10062499C /* SMS_SDK */,
+				F091B79B1E727ABB0062499C /* ReactNativeSMSSdk */,
+				F091B79A1E727ABB0062499C /* Products */,
+				F091B8201E72942B0062499C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F091B79A1E727ABB0062499C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F091B7991E727ABB0062499C /* libReactNativeSMSSdk.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F091B79B1E727ABB0062499C /* ReactNativeSMSSdk */ = {
+			isa = PBXGroup;
+			children = (
+				F091B79C1E727ABB0062499C /* ReactNativeSMSSdk.h */,
+				F091B79D1E727ABB0062499C /* ReactNativeSMSSdk.m */,
+			);
+			path = ReactNativeSMSSdk;
+			sourceTree = "<group>";
+		};
+		F091B7E71E7293A10062499C /* SMS_SDK */ = {
+			isa = PBXGroup;
+			children = (
+				F091B7E81E7293A10062499C /* MOBFoundation.framework */,
+				F091B7E91E7293A10062499C /* MOBFoundationEx.framework */,
+				F091B7EA1E7293A10062499C /* SMS_SDK.framework */,
+			);
+			path = SMS_SDK;
+			sourceTree = "<group>";
+		};
+		F091B8201E72942B0062499C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F091B8E61E72AD140062499C /* libicucore.A.dylib */,
+				F091B8E41E72ACE80062499C /* libz.1.dylib */,
+				F091B8A11E72A70E0062499C /* UIKit.framework */,
+				F091B89F1E72A6DA0062499C /* libstdc++.6.0.9.dylib */,
+				F091B89D1E72A5600062499C /* libiconv.tbd */,
+				F091B8961E729F190062499C /* Security.framework */,
+				F091B8331E7294890062499C /* AddressBookUI.framework */,
+				F091B8311E7294840062499C /* AddressBook.framework */,
+				F091B82F1E7294750062499C /* AdSupport.framework */,
+				F091B82D1E72946C0062499C /* CoreTelephony.framework */,
+				F091B82B1E7294630062499C /* SystemConfiguration.framework */,
+				F091B8291E72945A0062499C /* libstdc++.tbd */,
+				F091B8271E72944E0062499C /* JavaScriptCore.framework */,
+				F091B8251E7294440062499C /* MessageUI.framework */,
+				F091B8231E72943C0062499C /* libicucore.tbd */,
+				F091B8211E72942C0062499C /* libz.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F091B7981E727ABB0062499C /* ReactNativeSMSSdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F091B7A21E727ABB0062499C /* Build configuration list for PBXNativeTarget "ReactNativeSMSSdk" */;
+			buildPhases = (
+				F091B7951E727ABB0062499C /* Sources */,
+				F091B7961E727ABB0062499C /* Frameworks */,
+				F091B7971E727ABB0062499C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactNativeSMSSdk;
+			productName = ReactNativeSMSSdk;
+			productReference = F091B7991E727ABB0062499C /* libReactNativeSMSSdk.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F091B7911E727ABB0062499C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = WZC;
+				TargetAttributes = {
+					F091B7981E727ABB0062499C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6N7359RQN4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F091B7941E727ABB0062499C /* Build configuration list for PBXProject "ReactNativeSMSSdk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F091B7901E727ABB0062499C;
+			productRefGroup = F091B79A1E727ABB0062499C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F091B7981E727ABB0062499C /* ReactNativeSMSSdk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F091B7951E727ABB0062499C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F091B79E1E727ABB0062499C /* ReactNativeSMSSdk.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F091B7A01E727ABB0062499C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F091B7A11E727ABB0062499C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F091B7A31E727ABB0062499C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6N7359RQN4;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SMS_SDK",
+				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../react-native/React/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F091B7A41E727ABB0062499C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6N7359RQN4;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SMS_SDK",
+				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../react-native/React/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F091B7941E727ABB0062499C /* Build configuration list for PBXProject "ReactNativeSMSSdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F091B7A01E727ABB0062499C /* Debug */,
+				F091B7A11E727ABB0062499C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F091B7A21E727ABB0062499C /* Build configuration list for PBXNativeTarget "ReactNativeSMSSdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F091B7A31E727ABB0062499C /* Debug */,
+				F091B7A41E727ABB0062499C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F091B7911E727ABB0062499C /* Project object */;
+}

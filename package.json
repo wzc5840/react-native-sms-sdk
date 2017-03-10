@@ -1,0 +1,23 @@
+{
+  "name": "react-native-sms-sdk",
+  "version": "1.0.0",
+  "description": "mob sms sdk fro react native ios android",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wzc5840/react-native-sms-sdk.git"
+  },
+  "keywords": [
+    "mob",
+    "sms"
+  ],
+  "author": "Symond",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wzc5840/react-native-sms-sdk/issues"
+  },
+  "homepage": "https://github.com/wzc5840/react-native-sms-sdk#readme"
+}
