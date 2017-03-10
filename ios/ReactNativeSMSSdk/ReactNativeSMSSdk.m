@@ -20,9 +20,25 @@ RCT_EXPORT_METHOD(registerApp:(NSString *)appKey withSecret:(NSString *)secretKe
     [SMSSDK registerApp:appKey withSecret:secretKey];
 }
 
-RCT_EXPORT_METHOD(hello) {
-    // [SMSSDK registerApp:appKey withSecret:secretKey];
-    NSLog(@"hello123123");
+
+RCT_EXPORT_METHOD(getVerificationCodeByMethodType:(NSInteger)methodType
+                  phoneNumber:(NSString *)phoneNumber
+                  zone:(NSString *)zone
+                  customIdentifier:(NSString *)customIdentifier
+                  resolver:(RCTPromiseResolveBlock)resolve
+                  rejecter:(RCTPromiseRejectBlock)reject) {
+    
+    
+  //  reject(@"-1",@"hello",nil);
+    
+    [SMSSDK getVerificationCodeByMethod:methodType phoneNumber:phoneNumber zone:zone customIdentifier:customIdentifier result:^(NSError *error) {
+        if(!error){
+            resolve([NSNumber numberWithBool:YES]);
+        }else{
+            NSString *strTel = [NSString stringWithFormat:@"send to %@ failed!",phoneNumber];
+            reject(@"-1",strTel,error);
+        }
+    }];
 }
 
 @end
