@@ -21,9 +21,6 @@
 		F091B8971E729F190062499C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F091B8961E729F190062499C /* Security.framework */; };
 		F091B8981E729F2B0062499C /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F091B8331E7294890062499C /* AddressBookUI.framework */; };
 		F091B8A21E72A70E0062499C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F091B8A11E72A70E0062499C /* UIKit.framework */; };
-		F091B8E91E72B11A0062499C /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F091B89F1E72A6DA0062499C /* libstdc++.6.0.9.dylib */; };
-		F091B8EA1E72B1270062499C /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F091B8E41E72ACE80062499C /* libz.1.dylib */; };
-		F091B8EB1E72B14D0062499C /* libicucore.A.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F091B8E61E72AD140062499C /* libicucore.A.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -69,9 +66,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F091B8EB1E72B14D0062499C /* libicucore.A.dylib in Frameworks */,
-				F091B8EA1E72B1270062499C /* libz.1.dylib in Frameworks */,
-				F091B8E91E72B11A0062499C /* libstdc++.6.0.9.dylib in Frameworks */,
 				F091B8A21E72A70E0062499C /* UIKit.framework in Frameworks */,
 				F091B8981E729F2B0062499C /* AddressBookUI.framework in Frameworks */,
 				F091B8301E7294750062499C /* AdSupport.framework in Frameworks */,

@@ -1,6 +1,6 @@
 {
   "name": "react-native-sms-sdk",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "mob sms sdk fro react native ios android",
   "main": "index.js",
   "scripts": {
